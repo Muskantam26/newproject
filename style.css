@@ -7,21 +7,21 @@
 
 #toppart{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     
 }
 #toppart h1{
-    display: flex;
+    /* display: flex; */
     color: orangered;
-    padding: 15px;
-    margin: 15px;
+    /* padding: 15px; */
+    /* margin: 15px; */
     font-size: 50px;
     gap: 15px;
-    align-items: end;
-    justify-content: space-between;
-    margin-right: auto;
+    /* align-items: end; */
+    /* justify-content: space-between; */
+    /* margin-right: auto; */
     font-family: Arial, Helvetica, sans-serif;
     
 
@@ -29,7 +29,7 @@
 }
 #toppart h1 span{
     color: black;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     
 
     
@@ -64,6 +64,11 @@
     border: 1px solid black;
 } */
 
+#toppart .sg a{
+  font-size: 25px;
+  padding-right: 30px;
+}
+
 #toppart .sg a:hover{
   color: orangered;
 
@@ -82,12 +87,12 @@
 } 
 
 #toppart div {
-    display: flex;
-    padding: 50px;
-    gap: 50px;
-    margin-left: 80px;
-    margin-left: auto;
-    font-size: 25px;
+    /* display: flex; */
+    /* padding: 50px; */
+    /* gap: 50px; */
+    /* margin-left: 80px; */
+    /* margin-left: auto; */
+    /* font-size: 25px; */
     
    
 }
@@ -95,7 +100,7 @@
     width: 50%;
     /* border: 1px solid black; */
      line-height: 50px; 
-    padding: 300px 50px;
+    padding: 200px 50px;
 
 }
 #Home div:hover{
