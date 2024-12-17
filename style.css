@@ -89,9 +89,7 @@
 #toppart div {
     /* display: flex; */
     /* padding: 50px; */
-    /* gap: 50px; */
-    /* margin-left: 80px; */
-    /* margin-left: auto; */
+    
     /* font-size: 25px; */
     
    
@@ -994,7 +992,7 @@ color: orangered;
 /* signin section:
 ================= */
 
-#signin .signin-container{
+/* #signin .signin-container{
   width: 100;
   border: 1px solid black;
 
@@ -1007,7 +1005,10 @@ color: orangered;
   text-align: center;
    padding-top: 200px; 
   
-}
+} */
+
+
+
 
 
 

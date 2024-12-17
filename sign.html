@@ -40,9 +40,14 @@
     <section id="signin">
         <div class="signin-container">
             <p> Sign In</p>
-            <form action="signform" >
-                <input type="email" placeholder="Enter your email">
+            <form class="signin-form" action="#" method="post" >
+                <input type="email" placeholder="Email address" class="input-field" required>
+                <input type="password" placeholder="password" class="input-field" required>
+
+                <button type="submit" class="signin-button" >SIGN IN</button>
             </form>
+
+            <P class="create-account-text">Don't have an account? <a href="signup.html">Create one</a></P>
 
         </div>
     </section>
