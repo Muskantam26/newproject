@@ -1008,7 +1008,266 @@ color: orangered;
 } */
 
 
+#signin{
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+#signin .signin-container{
+  width: 600px;
+  padding: 20px;
+}
+
+#signin .signin-container .pp{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 90px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: black;
+}
+#signin .signin-form{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 10px;
+}
+#signin .input-field{
+  width: 100%;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 25px;
+  /* outline: none; */
+  color:gray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#signin .input-field:focus{
+  border-color:black;
+}
+
+#signin .signin-button{
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border: none;
+  padding: 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  text-transform: uppercase;
+  /* transition: background 0.3s; */
+
+}
+#signin .signin-button:hover{
+  background-color:grey;
+}
+
+#signin .create-account-text{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:gray;
+  margin-top: 30px;
+
+}
+#signin .create-account-text a{
+  color:grey;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#signin .create-account-text a:hover{
+  text-decoration: underline;
+}
+
+/* signup section */
+
+#signup .signup-container{
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+
+}
+#signup .signup-container .pppp{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 80px;
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 50px;
+  
+   
+}
+
+#signup .signup-container .aa{
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin: 20px;
+  padding: 12px;
+  border: 1px solid;
+  border-radius: 30px;
+  text-decoration: none;
+  color:black;
+  /* font-weight: 600; */
+
+  /* position: relative; */
+  margin-top: 20px;
+
+  
+}
+
+#signup .signup-container .aa:hover{
+  color: black;
+  background-color: orangered;
+}
+
+#signup .signup-container .aa i{
+  margin: 15px;
+}
+
+#signup .signup-container .pp{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin-top: 20px;
+  color:#666;
+}
+
+#signup .signup-container form input{
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  width: 30%;
+  
+  
+  
+}
+
+#signup .signup-container .star{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color:#666;
+}
+
+#signup .signup-container .create-btn{
+  display: inline-block;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  padding: 12px;
+  width: 25%;
+  cursor: pointer;
+
+}
+
+#signup .signup-container .create-btn:hover{
+  background-color: gray;
+}
+#signup .signup-container .aaa{
+  display: block;
+  margin-top: 20px;
+  color:black;
+  text-decoration: underline;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+#signup .signup-container .aaa:hover{
+  color: orangered;
+}
 
 
+/* cart section */
+
+#cart div{
+  width: 100%;
+  /* border: 1px solid black; */
+
+}
+#cart div p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: orangered;
+  font-size: 80px;
+  padding-top: 300px;
+  padding-left: 80px;
+  text-shadow: 5px 5px 8px gray;
+  background-color:lavender;
+}
+#cart div p span{
+  color: black;
+}
 
 
+/* section second */
+
+
+#cart-second .dd{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  /* border: 1px solid black; */
+  height: 90vh;
+}
+
+#cart-second .ddd{
+  /* border: 1px solid black; */
+  width: 50%;
+
+}
+
+#cart-second .dddd{
+  border: 1px solid black;
+  width: 40%;
+  height: 70vh;
+  margin-top: 110px;
+}
+
+#cart-second .ddd{
+  padding-left: 100px;
+  padding-top: 100px;
+}
+
+#cart-second .dddd .head{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 30px;
+  
+}
+
+#cart-second .dddd .head2{
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding-left: 30px;
+}
+#cart-second .dddd .head3{
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  /* margin-top: 100px; */
+  margin-left: 50px;
+}
+#cart-second .dddd .head4{
+  color: #777;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 30px;
+   margin-left: 50px;
+}
