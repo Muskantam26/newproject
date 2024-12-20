@@ -1293,3 +1293,57 @@ margin-left: 50px;
 #cart-second .dddd button:hover{
   background-color: orangered;
 }
+
+
+
+/* Contact section */
+
+#contact .cont {
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-wrap: wrap;
+  /* height: 70vh; */
+  
+
+}
+#contact .cont .co{
+  width: 50%;
+}
+
+
+
+#contact .cont .co p{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 60px;
+/* text-align: center; */
+color: orangered;
+text-shadow: 5px 5px 8px gray;
+margin-top: 200px;
+margin-left: 50px;
+
+}
+#contact .cont .co span{
+  color: black;
+}
+
+#contact .cont .c{
+  width: 50%;
+  justify-content: right;
+  align-items: end;
+   margin-top: 80px;
+}
+
+/* section second */
+
+#contact2 .cont2 {
+  width: 100%;
+  border: 1px solid black;
+  padding-top: 50px;
+}
+#contact .cont2 h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
