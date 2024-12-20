@@ -1459,3 +1459,23 @@ margin-left: 50px;
     color: gray;  
 }
 
+/* create responsive website */
+
+
+@media (max-width: 480px) { 
+  #toppart h1{
+    font-size: 20px;
+  }
+  #toppart nav ul{
+    display: none;
+  }
+  #Home div h1{
+    font-size: 1.5rem;
+  }
+  #Home div p{
+    font-size: 0.9rem;
+  }
+
+  
+}
+
