@@ -1339,11 +1339,123 @@ margin-left: 50px;
 
 #contact2 .cont2 {
   width: 100%;
-  border: 1px solid black;
-  padding-top: 50px;
+  
+  /* padding-top: 50px; */
+  display: flex;
+   flex-wrap: wrap;
+
 }
-#contact .cont2 h1{
+
+#contact2 .cont2 .cont22{
+  width: 50%;
+  
+}
+
+#contact2 .cont2 .cont22 h1{
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  font-size: 40px;
+  margin-top: 60px;
+  color: black;
+  font-size: 60px;
+  margin-left: 100px;
 }
+
+#contact2 .cont2 .cont22 h1 span{
+  color: orangered;
+}
+
+#contact2 .cont2 .cont22 form input{
+  height: 80px;
+  width: 60%;
+  margin-left: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  
+}
+#contact2 .cont2 .cont22 form button{
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:30px;
+  border-radius: 30px;
+  width: 20%;
+   height: 10%; 
+ margin-left: 100px; 
+}
+
+#contact2 .cont2 .cont22 form button:hover{
+  background-color: orangered;
+}
+#contact2 .cont2 .cont22 form .in{
+  height: 150px;
+}
+
+
+#contact2 .cont2 .contact3 {
+  width: 50%;
+  
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  height: 50vh;
+  margin-top: 10%;
+
+}
+
+#contact2 .cont2 .contact3 .cont3{
+  margin-left: 30%;
+}
+  
+
+#contact2 .cont2 .contact3 .cont3 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    
+    
+}
+#contact2 .cont2 .contact3 .cont3 a{
+  text-decoration: none;
+  color: #666;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#contact2 .cont2 .contact3 .cont5{
+  margin-left: 30%;
+}
+
+#contact2 .cont2 .contact3 .cont4 h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+#contact2 .cont2 .contact3 .cont4 a{
+  text-decoration: none;
+  color: #666;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  
+}
+#contact2 .cont2 .contact3 .cont5 h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+#contact2 .cont2 .contact3 .cont6 h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+#contact2 .cont2 .contact3 .cont5 p{
+  color: #666;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+#contact2 .cont2 .contact3 .cont6 a{
+  margin: 0 10px;
+    display: inline-block;
+    transition: transform 0.3s;
+    font-size: 25px;
+    color: gray;  
+}
+
