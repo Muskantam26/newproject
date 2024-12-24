@@ -996,7 +996,7 @@
   flex-wrap: wrap;
   width: 100%;
   /* border: 1px solid black; */
-  height: 90vh;
+   /* height: 90vh;  */
 }
 
 #cart-second .ddd{
@@ -1008,13 +1008,18 @@
 #cart-second .dddd{
   border: 1px solid black;
   width: 40%;
-  height: 70vh;
-  margin-top: 110px;
+  /* height: 70vh; */
+  margin-top: 100px;
+  height: 100vh;
 }
 
 #cart-second .ddd{
   padding-left: 100px;
   padding-top: 100px;
+}
+#cart-second .ddd img{
+  width: 70%;
+  height: 90vh;
 }
 
 #cart-second .dddd .head{
@@ -1263,24 +1268,24 @@ margin-left: 50px;
     top: 10%;
     right:10%; 
     font-size: 40px;
-    color: white;z-index: 50;
+    color:orangered;z-index: 50;
   }
   #inp:checked~#toppart nav ul{
     display:block;
     position: absolute; 
-      top: 5%;  
-     left: 40%; 
+      top: 10%;  
+     left: 63%; 
     
     /* padding: 20px; */
     border-radius: 10px;
-    line-height: 50px;
-    background-color:#ccc;
+    line-height: 40px;
+    background-color:white;
   
     
     
    }
    #inp:checked~main #Home div{
-     margin-top: 60%;
+     margin-top: 15%;
    }
    #Home{
     width: 100%;
@@ -1292,7 +1297,38 @@ margin-left: 50px;
     display: flex;
     align-items: center;
    }
-   
+   #section2 .container{
+    display: block;
+   }
+
+   #section2 .image-section img{
+    height: 60%;
+    width: 120%;
+    margin-top: 0%;
+    
+   }
+   #section2 .text-section h1{
+    padding-left: 0%;
+    text-align: center;
+    justify-content: center;
+    font-size: 35px;
+    display: flex;
+    gap: 5%;
+
+    
+   }
+   #section2 .text-section p{
+    font-size: 20px;
+    padding-left: 0%;
+   }
+
+   .featured-products h1{
+    font-size: 30px;
+    padding-right: 0%;
+   }
+
+  
+
    #story div{
     width: 98%;
    }
@@ -1305,19 +1341,22 @@ margin-left: 50px;
     text-align: center;
     padding-top: 50%;
     padding-left: 20%;
+    margin-top: 45%;
      
    }
 
    #main .box{
-    padding-left: 0%;
+    padding-left: 5%;
     padding-top: 0%;
     gap: 0%;
-    height: 130vh;
+    height: 120vh;
     width: 98%;
+    
    }
 
-   #main .mm{
-    margin-top: 20px;
+   #main .bbb{
+    width: 92%;
+    
     
    }
    #cost .cc{
@@ -1327,40 +1366,46 @@ margin-left: 50px;
     font-size: 50px;
    }
    #cost .oo{
-    margin-left: 0%;
+    margin-left: 20%;
     margin-top: 0%;
    }
    #cost .oo .bb{
     text-align: center;
+    justify-content: center;
     font-size: 20px;
-    margin-top: 0%;
-    margin-left: 95px;
+    margin-top: 10%;
+    /* margin-left: 50%; */
+    
    }
    #cost .oo .bb span{
     display: none;
    }
+   #cost .img{
+    margin-top: 20%;
+   }
    #cost .img img{
     margin-left: 0%;
     margin-top: 0%;
-    height: 80px;
-    margin-left: 25px;
-    margin-top: 20px;
+    height: 90px;
+    margin-left: 30px;
+    margin-top: 30px;
    }
    #cost .img .go{
     margin-left: 0%0;
     margin-top: 0%;
-    font-size: 15px;
+    font-size: 20px;
     margin-top: 40px;
+    
    }
    #pro div .produ{
     margin-top: 0%;
-    margin-left: 20px;
+    margin-left: 20%;
     font-size: 50px;
-    margin-top: 70px;
+    margin-top: 40%;
     
    }
    #pro div .prod{
-    margin-left: 20px;
+    margin-left: 20%;
     font-size: 50px;
    }
 
@@ -1368,5 +1413,154 @@ margin-left: 50px;
     font-size: 20px;
    }
 
+
+   #contact .cont{
+    margin-top: 25%;
+    
+   }
+
+   #contact .cont .co p{
+    font-size: 30px;
+    margin-top: 30%;
+   }
+
+   /* #contact2 .contact3 .cont3{
+    display: none;
+   }
+
+   #contact2 .contact3 .cont4{
+    display: none;
+   }
+   #contact2 .contact3 .cont5{
+    display: none;
+   }
+   #contact2 .contact3 .cont6{
+    display: none;
+   }
+     */
+
+     #contact2 .cont2{
+      display: block;
+     }
+     #contact2 .cont2 .cont22{
+      width: 100%;
+      
+     }
+     #contact2 .cont2 .cont22 h1{
+      font-size: 40px;
+      margin-left: 0%;
+      text-align: center;
+      justify-content: center;
+     }
+     #contact2 .cont2 .cont22 form input{
+      width: 85%;
+      margin-left: 0%;
+      margin-left: 10%;
+     }
+
+     #contact2 .cont2 .cont22 form button{
+      width: 40%;
+     }
+     #contact2 .cont2 .contact3{
+      margin-top: 0%;
+      height: 60vh;
+      gap: 30%;
+    
+     }
+     #contact2 .cont2 .contact3 .cont3{
+      margin-left: 10%;
+     }
+     #contact2 .cont2 .contact3 .cont3 h1{
+      font-size: 25px;
+     }
+     #contact2 .cont2 .contact3 .cont3 a{
+      font-size: 15px;
+
+     }
+     #contact2 .cont2 .contact3 .cont5{
+      margin-left: 10%;
+     }
+     #contact2 .cont2 .contact3 .cont4 h1{
+      font-size: 25px;
+     }
+     #contact2 .cont2 .contact3 .cont4 a{
+      font-size: 15px;
+     }
+     #contact2 .cont2 .contact3 .cont5 h1{
+      font-size: 25px;
+     }
+     #contact2 .cont2 .contact3 .cont6 h1{
+      font-size: 25px;
+     }
+     #contact2 .cont2 .contact3 .cont5 p{
+      font-size: 15px;
+     }
+     #contact2 .cont2 .contact3 .cont6 a{
+      font-size: 15px;
+      margin: 0%;
+     }
+
+     #signup .signup-container form input{
+      width: 80%;
+     }
+     #signup .signup-container .create-btn{
+      width: 80%;
+     }
+     #cart div p{
+      font-size: 40px;
+      padding-left: 0%;
+      width: 98%;
+      
+     }
+     #cart-second .dd{
+      display: block;
+      width: 90%;
+      
+     }    
+     #cart-second .ddd{
+        padding-left: 20%;
+        padding-top: 10%;
+
+        
+     }
+     #cart-second .ddd img{
+      width: 250%;
+      height: 60vh;
+     }
+     #cart-second .dddd{
+      margin-top: 10%;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      margin-left: 5%;
+      height: 90vh;
+     }
+     #cart-second .dddd .head{
+      padding-left: 0%;
+      text-align: center;
+      padding-top: 0%;
+      font-size: 35px;
+     }
+     #cart-second .dddd .head2{
+           padding-left: 10%;
+           font-size: 20px;
+     }
+     #cart-second .dddd .head3{
+      margin-left: 30%;
+      font-size: 25px;
+
+      
+     }
+     #cart-second .dddd .head4{
+      font-size: 20px;
+      margin-left: 0%;
+     }
+     #cart-second .dddd select{
+      margin-left: 10%;
+      font-size: 20px;
+     }
+     #cart-second .dddd button{
+      font-size: 20px;
+     }
   }
   
