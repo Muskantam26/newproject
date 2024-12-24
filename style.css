@@ -1249,7 +1249,7 @@ margin-left: 50px;
 /* create responsive website */
 
 
-@media (max-width: 480px) { 
+@media (max-width: 470px) { 
   #toppart h1{
     font-size: 30px;
   }
@@ -1355,7 +1355,7 @@ margin-left: 50px;
    }
 
    #main .bbb{
-    width: 92%;
+     width: 98%; 
     
     
    }
