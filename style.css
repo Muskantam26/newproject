@@ -116,246 +116,10 @@
     font-size: 30px;
 
 }
-#hm .hmdiv{
-    width: 100%;
-       /* height: 100vh;      */
-    display: flex;
-    flex-wrap: wrap;
-    gap: 4%;
-    
-     
-}
-
-#hm  h1{
-    font-size: 55px;
-    font-family: Arial, Helvetica, sans-serif;
-
-    align-items: center;
-   /* margin: auto;  */
-   /* display: flex;
-   padding-left: 20%;
-   justify-content: center; */
-   /* padding-left: 600px; */
-   padding-top: 80px; 
-   text-align: center;
-}
-#hm  h1 span{
-    color: orangered;
-}
-#hm .homeab{
-     /* border: 1px solid black;  */
-    height: 600px;
-    width: 30%;
-    display: flex;
-    flex-wrap: wrap;
-    /* padding-top: 100px; */
-    justify-content: space-between;
-    align-items: center;
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    text-align:center ;
-
-}
-#hm .homeab img{
-    width: 70%;
-    height: 30%;
-    padding-left: 60px;
-    /* padding-bottom: 400px; */
-    padding-top: 45px;
-}
-#hm .homeab a{
-    font-size:40px ;
-    font-family: Arial, Helvetica, sans-serif;
-     padding-left: 150px;
-    align-items: center;
-    color:orangered;
-    
 
 
-}
-#hm .homeab p span{
-    color: orangered;
-}
-#hm .homeab  .para{
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-}
-#hm .homee{
-     /* border: 1px solid black;   */
-    height: 600px;
-    width: 30%;
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* padding-top: 100px; */
-    /* justify-content: space-between;
-    align-items: center; */
-    text-align: center;
-    
-    
 
-}
-.homee video{
-    margin-top: 50px;
-}
-#hm .homm{
-     /* border: 1px solid black; */
-     height: 600px; 
-    width: 30%;
-    display: flex;
-    flex-wrap: wrap;
-    /* padding-top: 100px; */
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-
-} 
-#hm .homeab p{
-   color: black;
-   padding-left: 50px;
-   /* padding-bottom: 150px; */
-   /* text-decoration: none; */
-}
-#hm .homeab a:hover{
-    color: orangered;
-    text-decoration:underline;
-    
-}
-#hm .homm p {
-    font-size:50px ;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-left: 30px;
-    
-    
-    
-}
-#hm .homee a{
-     font-size: 40px;
-     color: orangered;
-     font-family: Arial, Helvetica, sans-serif;
-     /* padding-left: 150px; */
-     justify-content: center;
-    align-items: center;
-     /* padding-bottom: 50px;  */
-    /* padding-right: 100px; */
-    
-
-  
-}
-#hm .homee p{
-    font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    /* padding-bottom: 12px; */
-    /* padding-left: 15px; */
-    text-align: center;
-
-}
-#hm .homee p span{
-    color: orangered;
-}
-#hm .homee .pa{
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-left: 20px;
-    padding-right: 20px;
-    /* padding-bottom: 20px; */
-}
-#hm .homee video{
-    padding-left: 80px;
-    width: 70%;
-    height: 30%;
-    
-
-}
-#hm .homm a{
-    font-size: 40px;
-    color: orangered;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-left: 150px;
-    align-items: center;
-
-}
-#hm .homm img{
-    width: 70%;
-    height: 40%;
-    padding-left:15%;
-    padding-top: 45px;
-    
-    
-}
-#hm .homm p{
-    font-size: 50px;
-    font-family:Arial, Helvetica, sans-serif;
-    
-}
-#hm .homm .cont{
-    font-size: 23px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-     /* #hm .homm .br span{
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 30px;
-     padding-left: 20px; 
-    font-family: Arial, Helvetica, sans-serif;  
-}  
-#hm .homm .br .nine{
-          margin-left: 250px; 
-}
-#hm .homm .br .sp{
-    display: flex;
-    font-size: 30px;
-       gap: 200px;  
-     display: flex;
-     flex-wrap: wrap;
-}
-#hm .homm .br .st{
-     margin-left: 130px; 
-}
-#hm .homm .br .pl{
-     margin-left: 170px; 
-    display: flex;
-    flex-wrap: wrap;
-}    */
-    
- /* #ret div{
-      border: 1px solid black;  
-     display: flex;
-     
-} 
-#ret .img{
-     height: 600px;
-    width: 600px;
-    padding-top: 150px;
-     
-
-}
-#ret .retail .parag {
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-      
-       
-    
-} 
-
-
-#ret .retail .parag span{
-color: orangered;
-}
-#ret .retail p{
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-     padding-top: 300px; 
-     padding-right:300px ; 
-
-}
-
-  */
-  .container {
+  #section2 .container {
     display: flex;
      /* background: #fff;  */
      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
@@ -367,58 +131,59 @@ color: orangered;
 
   }
   
-  .image-section {
-    flex: 1;
-  }
   
-  .image-section img {
-    width: 90%;
-    height: 90%;
+  
+  #section2 .image-section img {
+    width: 70%;
+    height: 70%;
     background-size: cover;
-    padding-top: 70px;
+    /* padding-top: 70px; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
 
 
   }
   
-  .text-section {
-    flex: 1;
-    padding: 20px;
+  #section2 .text-section {
+    
     display: flex;
-    flex-direction: column;
+     flex-direction: column; 
     justify-content: center;
   }
   
-  .text-section h1 {
-    font-size: 55px;
-    margin: 0;
-    padding-left: 100px;
+  #section2 .text-section h1 {
+    font-size: 40px;
+    /* margin: 0; */
+     padding-left: 100px; 
+    
   }
   
-  .text-section .highlight {
+  #section2 .text-section .highlight {
     color: #ff5722;
   }
   
-  .text-section p {
+  #section2 .text-section p {
     color: #777;
     margin: 20px 0;
-    font-size: 35px;
+    font-size: 25px;
     padding-left: 100px;
   }
   
-  .explore-link {
+  #section2 .explore-link {
     text-decoration: none;
     color:#777;
     /* background-color: #ff5722; */
-     padding: 10px 20px; 
-    border-radius: 5px;
-    display: inline-block;
+     /* padding: 10px 20px; 
+    border-radius: 5px; */
+    /* display: inline-block; */
     font-weight: bold;
     text-align: center;
-    padding-right: 400px;
-    font-size: 30px;
+    /* padding-right: 400px; */
+    font-size: 25px;
     
   }
-  .explore-link:hover{
+  #section2 .explore-link:hover{
     color: orangered;
   }
 
@@ -428,14 +193,15 @@ color: orangered;
     margin: 0 auto;
     width: 100%;
     padding-top: 100px;
+    
   }
   
   .featured-products h1 {
-    font-size: 70px;
+    font-size: 50px;
     font-weight: bold;
     margin-bottom: 30px;
     padding-top: 50px;
-    padding-right: 1200px;
+    padding-right: 100px;
     font-family: Arial, Helvetica, sans-serif;
 
   }
@@ -443,7 +209,7 @@ color: orangered;
   .products {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
     flex-wrap: wrap;
   }
   
@@ -452,7 +218,7 @@ color: orangered;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    max-width: 500px;
+    max-width: 300px;
     text-align: center;
     padding: 20px;
   }
@@ -633,6 +399,9 @@ color: orangered;
     font-size: 30px;
     color:black;
   }
+
+
+  /* story section */
   
    #story div{
     width: 100%;
@@ -640,7 +409,7 @@ color: orangered;
     height: 70vh;
     display: flex;
     flex-wrap: wrap;
-    background-color:snow;
+    background-color:lavender;
    }
    #story div .stor{
     width: 40%;
@@ -659,7 +428,7 @@ color: orangered;
     text-shadow: 5px 5px 8px gray;
     font-weight: bold;
     padding-left: 150px;
-    padding-top: 300px;
+    padding-top: 100px;
 
    }
 
@@ -684,27 +453,27 @@ color: orangered;
   background-color: grey;
   display: flex;
   flex-wrap: wrap;
-  gap: 70px;
-  padding-left: 120px;
-  padding-top: 200px;
+  gap: 30px;
+  padding-left: 80px;
+  padding-top: 100px;
 }
 
 #main .mm{
-  width: 500px;
+  width: 400px;
   height: 230px;
   border: 1px solid black;
   background-color: white;
   border-radius: 20px;
 }
 #main .tt{
-  width: 500px;
+  width: 400px;
   height: 230px;
   border: 1px solid black;
   background-color: white;
   border-radius: 20px;
 
 }
-#main .bb{
+#main .bbb{
   width: 500px;
   height: 230px;
   border: 1px solid black;
@@ -759,21 +528,21 @@ color: orangered;
   color: gray;
  padding-left: 30px;
 }
-#main .bb .marie{
+#main .bbb .marie{
   display: flex;
 }
-#main .bb .marie img{
+#main .bbb .marie img{
   border-radius: 160px;
   height: 200px;
   padding-top: 20px;
 }
-#main .bb .marie h1{
+#main .bbb .marie h1{
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   margin-top: 90px;
   padding-left: 30px;
 }
-#main .bb .marie p{
+#main .bbb .marie p{
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 20px;
@@ -815,7 +584,7 @@ color: orangered;
 
 
 #cost .oo .bb{
-  font-size: 40px;
+  font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   color: grey;
@@ -832,9 +601,9 @@ color: orangered;
 
 #cost .img img{
   border-radius: 160px;
-  height: 150px;
-   margin-top: 20px;
-  margin-left: 150px; 
+  height: 100px;
+   margin-top: 10px;
+  margin-left: 120px; 
   
   
 }
@@ -853,7 +622,7 @@ color: orangered;
 #pro div{
   width: 100%;
   /* border: 1px solid black; */
-  color:darkgray;
+  color:lightblue;
 }
 #pro div .produ{
   font-family: Arial, Helvetica, sans-serif;
@@ -883,20 +652,21 @@ color: orangered;
 }
 
 .fp h1 {
- font-size: 70px;
+ font-size: 50px;
  font-weight: bold;
- margin-bottom: 30px;
+ margin-bottom: 40px;
  /* padding-top: 100px; */
- margin-top: 100px;
+ margin-top: 50px;
  font-family: Arial, Helvetica, sans-serif;
- padding-right: 1300px;
+ /* padding-right: 100px; */
+ text-align: center;
 
 }
 
 .fff {
  display: flex;
  justify-content: center;
- gap: 20px;
+ gap: 10px;
  flex-wrap: wrap;
 }
 
@@ -905,9 +675,9 @@ color: orangered;
  border-radius: 10px;
  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
  overflow: hidden;
-  max-width: 500px; 
+  max-width: 300px; 
  text-align: center;
- padding: 20px;
+ /* padding: 20px; */
 }
 
 .prodimg {
@@ -1015,10 +785,12 @@ color: orangered;
   align-items: center;
   height: 100vh;
   text-align: center;
+  background-image: url(imgfashion.avif);
 }
 #signin .signin-container{
   width: 600px;
   padding: 20px;
+  
 }
 
 #signin .signin-container .pp{
@@ -1069,12 +841,12 @@ color: orangered;
 #signin .create-account-text{
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
-  color:gray;
+  color:white;
   margin-top: 30px;
 
 }
 #signin .create-account-text a{
-  color:grey;
+  color:white;
   text-decoration: none;
   font-weight: bold;
 }
@@ -1089,19 +861,20 @@ color: orangered;
   /* display: flex; */
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
   width: 100%;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 10px;
+  background-image: url(imgfashion.avif);
 
 }
 #signup .signup-container .pppp{
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  font-size: 80px;
+  font-size: 60px;
   text-align: center;
-  padding-top: 50px;
-  margin-bottom: 50px;
+  padding-top: 30px;
+  margin-bottom: 20px;
   
    
 }
@@ -1110,8 +883,8 @@ color: orangered;
 
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  margin: 20px;
-  padding: 12px;
+  /* margin: 20px; */
+   padding: 12px; 
   border: 1px solid;
   border-radius: 30px;
   text-decoration: none;
@@ -1119,7 +892,7 @@ color: orangered;
   /* font-weight: 600; */
 
   /* position: relative; */
-  margin-top: 20px;
+  /* margin-top: 10px; */
 
   
 }
@@ -1130,18 +903,20 @@ color: orangered;
 }
 
 #signup .signup-container .aa i{
-  margin: 15px;
+    
+   margin: 15px;  
 }
+
 
 #signup .signup-container .pp{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
-  margin-top: 20px;
-  color:#666;
+  
+  color:grey;
 }
 
 #signup .signup-container form input{
-  padding: 20px;
+  padding: 10px;
   margin: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -1155,7 +930,7 @@ color: orangered;
 
 #signup .signup-container .star{
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px;
+  font-size: 15px;
   color:#666;
 }
 
@@ -1167,8 +942,8 @@ color: orangered;
   border: none;
   border-radius: 25px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px;
-  padding: 12px;
+  font-size: 20px;
+   padding: 12px; 
   width: 25%;
   cursor: pointer;
 
@@ -1179,11 +954,12 @@ color: orangered;
 }
 #signup .signup-container .aaa{
   display: block;
-  margin-top: 20px;
+  margin-top: 10px;
   color:black;
   text-decoration: underline;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
+  padding-bottom: 10px;
 }
 #signup .signup-container .aaa:hover{
   color: orangered;
@@ -1458,24 +1234,139 @@ margin-left: 50px;
     font-size: 25px;
     color: gray;  
 }
+#inp{
+  display: none;
+}
+#bars{
+  display: none;
+}
 
 /* create responsive website */
 
 
 @media (max-width: 480px) { 
   #toppart h1{
-    font-size: 20px;
+    font-size: 30px;
   }
   #toppart nav ul{
     display: none;
   }
   #Home div h1{
-    font-size: 1.5rem;
+    font-size: 30px;
   }
   #Home div p{
-    font-size: 0.9rem;
+    font-size: 20px;
   }
-
+  #bars{
+    display: block;
+    position: absolute;
+    top: 10%;
+    right:10%; 
+    font-size: 40px;
+    color: white;z-index: 50;
+  }
+  #inp:checked~#toppart nav ul{
+    display:block;
+    position: absolute; 
+      top: 5%;  
+     left: 40%; 
+    
+    /* padding: 20px; */
+    border-radius: 10px;
+    line-height: 50px;
+    background-color:#ccc;
   
-}
+    
+    
+   }
+   #inp:checked~main #Home div{
+     margin-top: 60%;
+   }
+   #Home{
+    width: 100%;
+    height: 100vh;
+    background-image:  url(rgnv4xvc.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+   }
+   
+   #story div{
+    width: 98%;
+   }
+   #story .st {
+    display: none;
+   }
+   #story div .stor p{
+    padding-left: 0%;
+    padding-top: 0%;
+    text-align: center;
+    padding-top: 50%;
+    padding-left: 20%;
+     
+   }
 
+   #main .box{
+    padding-left: 0%;
+    padding-top: 0%;
+    gap: 0%;
+    height: 130vh;
+    width: 98%;
+   }
+
+   #main .mm{
+    margin-top: 20px;
+    
+   }
+   #cost .cc{
+    width: 98%;
+   }
+   #cost .cc .pp{
+    font-size: 50px;
+   }
+   #cost .oo{
+    margin-left: 0%;
+    margin-top: 0%;
+   }
+   #cost .oo .bb{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0%;
+    margin-left: 95px;
+   }
+   #cost .oo .bb span{
+    display: none;
+   }
+   #cost .img img{
+    margin-left: 0%;
+    margin-top: 0%;
+    height: 80px;
+    margin-left: 25px;
+    margin-top: 20px;
+   }
+   #cost .img .go{
+    margin-left: 0%0;
+    margin-top: 0%;
+    font-size: 15px;
+    margin-top: 40px;
+   }
+   #pro div .produ{
+    margin-top: 0%;
+    margin-left: 20px;
+    font-size: 50px;
+    margin-top: 70px;
+    
+   }
+   #pro div .prod{
+    margin-left: 20px;
+    font-size: 50px;
+   }
+
+   #featured-products h1{
+    font-size: 20px;
+   }
+
+  }
+  
