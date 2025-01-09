@@ -237,9 +237,10 @@
     left: 10px;
     background-color: #ff5722;
     color: white;
-    padding: 5px 10px;
+    padding: 10px 10px;
     font-size: 20px;
     border-radius: 5px;
+    margin-left: 50%;
   }
   
   
@@ -916,7 +917,7 @@
   color:#666;
 }
 
-#signup .signup-container .create-btn{
+#signup .signup-container .create-btn {
   display: inline-block;
   background-color: black;
   color: white;
@@ -931,7 +932,7 @@
 
 }
 
-#signup .signup-container .create-btn:hover{
+#signup .signup-container .create-btn :hover{
   background-color: gray;
 }
 #signup .signup-container .aaa{
